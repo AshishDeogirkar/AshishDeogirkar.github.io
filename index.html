@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my portfolio</title>
+  <!--viewport for removing pinch zoom-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <!--web fonts and icons-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="index.css">
+	
+
+</head>
+
+<body>
+	  <!-- Navigation bar and logo-->
+		<div class="navbar">
+       <p class="logo">Ashish</p>
+       <!-- calling script for mobile menu-->
+       <a href="javascript:void(0);" class="active mobile" onclick="mobileMenu()">
+       <i class="fa fa-bars"></i>
+       </a>
+       <div id="mymenu">
+   
+       <a class="active" href="#home" > HOME</a>
+       <a href="#work" > WORK</a> 
+       <a href="#portfolio" >PORTFOLIO</a>
+       <a href="#contact"> CONTACT</a> 
+
+   
+       </div>
+ 
+     </div>
+
+    <!-- Home page-->
+
+   <div id="home" class="name">
+       <h1>HELLO</br>I'M</h1>   
+       <h2>Ashish</h2>
+       <h3>WEB DEVELOPER</h3>
+    </div>
+
+    <!--About me section-->
+
+	<div id="portfolio" class="aboutme">
+	     <h1>ABOUT ME</h1>
+	     <div class="about">
+    
+	     <h4>
+		    Hey! I am glad you are here...</br>
+	     </br>
+		    I am "Passionate about Web Development Technologies"</br>
+		   </br>
+		    MORE ABOUT ME </br>
+		
+		    Education:- Master of Computer Science</br>
+		
+	    	Hobbies:- Playing Cricket, Reading Books.</br>
+	     </h4>
+
+
+	      <div class="card">
+	       <img src="myimage.jpg">
+	       <h3>ASHISH DEOGIRKAR</h3>
+	
+	</div>
+ </div>
+</div>
+	
+  <!--Technology I Like Section-->
+
+	<div class="technology">
+		<h1>TECHNOLOGIES I LIKE </h1>
+		<div class="row">
+			<div class="image">
+			 <h2>PROGRESSIVE WEB APPS</h2>
+			 <img src="pwa.jpg">	
+			</div>
+			<div class="image">
+				<h2>SINGLE PAGE WEBSITES</h2>
+				<img src="spa.gif">
+			</div>
+			<div class="image">
+				<h2>PUSH NOTIFICATIONS</h2>
+				<img src="notifications.gif">
+			</div>
+			<div class=image>
+				<h2>MOTION UI</h2>
+				<img src="motion-ui.png">
+			</div>
+			
+		</div>
+	</div>
+
+  <!-- My Skills and Project Section-->
+
+<div id="work" class="skills">
+	<div class="banner">
+	<div class="  card">
+		<h1><center>MY SKILLS</center></h1>
+		<h3>HTML</h3>
+    <div class="Myskills">
+    <div class="progress html">80%</div>
+</div>
+
+<h3>CSS</h3>
+<div class="Myskills">
+  <div class="progress css">75%</div>
+</div>
+
+<h3>JavaScript</h3>
+<div  class="Myskills">
+  <div class="progress js">85%</div>
+</div>
+<h3>ORACLE</h3>
+<div class="Myskills">
+  <div class="progress oracle">90%</div>
+</div>
+</div>
+</div>
+
+   <div  class="banner">
+	<div class="  card">
+		<h1><center>MY PROJECT AND WORK</center></h1></br>
+		<hr>
+		<h2><center>This is my First project "My Portfolio Website".</center></br></h2>
+		<hr>
+            
+		
+	</div>
+</div>
+</div>
+
+<!-- Contact Us Section-->
+<div id="contact" class="foot" >
+		
+			<h1><center>CONTACT US</center></h1>
+            <h2><center><strong>Mobile No. +91-9890114318,   +91-9881110472</strong></center></h2>
+			<h2><center><a href="#email">Email:- ashishdeogirkar093@gmail.com</a></center></h2>
+      <div class="social">
+      <a href="#" class="fa fa-fw fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+
+		</div>
+	</div>
+
+  <!-- Defining Js Function-->
+  <script type="text/javascript">
+	let mobileMenu=()=> {
+  var temp = document.getElementById("mymenu");
+  if (temp.style.display === "block") {
+    temp.style.display = "none";
+  } else {
+    temp.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>

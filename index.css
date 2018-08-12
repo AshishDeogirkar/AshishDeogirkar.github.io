@@ -1,0 +1,467 @@
+ :root{
+    font-size: 17px;
+  }
+	body{
+
+		top:0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    max-width: 100vw;
+    height:auto; 
+    background-color:black;
+    overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+		
+	}
+	.navbar {
+    top:0;
+    left: 0;
+   margin: 0;
+    padding: 0;
+    position: fixed;
+   display: inline;
+    width: 100vw;   
+   background-position: center;
+   background-size: cover;
+	 overflow: hidden;
+   font-family: 'Roboto', sans-serif;
+   background-color: rgba(0,0,0,0.1);
+   font-weight: bold;
+}
+.navbar .logo{
+  top:0;
+  left: 0;
+  top:0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  font: 200 30px/1.6 'Berkshire Swash', Helvetica, sans-serif;
+  color: #C0C0C0;
+  text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0);
+  border-bottom:solid;
+  border-width: 6px;
+  border-color: #FF0000;
+  width: 10vw;
+}
+#mymenu{
+  display: block;
+  float: right;
+  width: 40vw;
+  position: relative;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+
+}
+
+
+.navbar  a { 
+ 
+  margin:  .5vw;
+  padding: 1vw;
+  color: white;
+  text-decoration: none;
+  font-size: .8rem;
+  display: inline; 
+}
+
+.navbar a.mobile {
+  color: white;
+  display: none;
+  position:relative;
+  float: right;
+  right: 0;
+  top: 0;
+}
+
+.navbar a.mobile:hover{
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+
+
+.navbar #mymenu a:hover {
+  text-decoration:overline;
+  text-decoration-color: #d4443b;
+  text-decoration-style:  solid;
+  background-color: purple;
+  border-radius: 40px;
+}
+
+.active {
+  background-color: rgba(0,0,0,0.6);
+  
+}
+
+
+.name{
+  display:flex;
+  background-image: url("web-design-background.jpg");
+  background-color: #555555;
+  background-blend-mode:  multiply;
+  flex-direction: column;
+	top: 0;
+  left:0;
+  margin:0;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.name h1{
+	color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+  font-weight:bold;  
+  color: white;
+  border-left:outset; 
+  padding-left: 1vw;
+  border-width: 10px;
+  border-color: red;
+  font-size: 2rem;
+  letter-spacing: .3rem;
+
+}
+
+.name h2{
+  margin-top: 0;
+  margin-bottom: 2vh;
+  font: 200 100px/1.3 'Arizonia', Helvetica, sans-serif;
+  color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(193,56,50,0.9); 
+  font-weight:lighter;   
+  color: white; 
+  font-size: 10rem;
+  letter-spacing: .4rem;
+}
+
+.name h3{
+	color: #2b2b2b;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.5); 
+   font-weight: normal;
+  text-decoration:underline overline ;
+  color: white;  
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2rem;
+}
+.aboutme{
+	top: 0;
+  left:0;
+  margin:0;
+	display:flex;
+  flex-direction: column;
+   width: 100vw;
+   height: auto;
+   align-items:center;
+   justify-content: flex-start;
+   background-image: url("about.jpg");
+   background-color: #B3B3B3;
+   background-blend-mode: screen;
+     background-size: cover;
+  background-position: center;
+ 
+
+}
+.aboutme .about{
+	top: 0;
+  left:0;
+  margin:0;
+  display:flex; 
+  flex-direction: row;
+   width: 100vw;
+   height: auto;
+   align-items:center;
+   justify-content: space-around;
+   background-size: cover;
+   background-position: center;
+
+}
+.aboutme .about h4{
+width:60vw;
+text-align: center;
+font-weight: bold;
+border-left: outset; 
+  font-size: 2.5rem;
+  border-width: 10px;
+  border-color: red;
+
+}
+.aboutme .about .card {
+width:25vw;
+height:auto;
+text-align: center;
+box-shadow: 5px 5px 5px 4px #bb0000;
+}
+.aboutme .about .card img{
+	width: 100%;
+  height: auto;
+	border-radius: 10px;
+}
+
+.technology{
+	top: 0;
+  left:0;
+  margin:0;
+	display:flex;
+  color: #c4b39b;
+  flex-direction: column;	 
+   width: 100vw;
+   height: auto;
+   align-items:center;
+   justify-content: flex-start; 
+   background-image: url("keyboard-18.jpg");
+   background-color: #4D4D4D;
+  background-blend-mode: soft-light;
+   background-size: cover;
+  background-position: center;
+
+}
+
+.technology .row{
+	top: 0;
+  left:0;
+  margin:0;
+  padding: 0;
+	display:flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+   width: 100vw;
+   height: auto;
+   align-items: center;
+   justify-content: space-around;
+   background-size: cover;
+  background-position: center;
+}
+.technology .row .image{
+	text-align: center;
+	width: 45vw;
+ margin:0;
+  padding: 0;
+   
+}
+.technology .row .image img{
+	
+	width: 100%;
+  height: auto;
+	box-shadow:  10px 10px 10px gray; 
+}
+
+* {
+  box-sizing:border-box;
+}
+
+.skills {
+	top: 0;
+   left:0;
+   margin:0;
+   padding: 0;
+	 display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	 background:linear-gradient(45deg,#EDEDED  , #3B3B3B , #EDEDED );
+   width: 100vw;
+   height: auto;
+   align-items: center;
+   justify-content: space-around;
+    background-size: cover;
+  background-position: center;
+    
+}
+.skills .banner{
+	width: 48vw;
+  box-shadow: 6px 6px 5px 5px rgba(0,0,0,0.5);  
+  border:5px; 
+  padding:4vh;
+  border-radius: 30px;
+  
+}
+
+
+.skills .card {
+  width: 100%;
+  
+}
+
+.Myskills {
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.progress {
+  text-align: right;
+  padding-right: 3vw;
+  line-height: 5vh;
+  color: white;
+}
+
+.html {width: 80%; background-color: #4CAF50;}
+.css {width: 75%; background-color: #2196F3;}
+.js {width: 85%; background-color: #f44336;}
+.oracle {width: 90%; background-color: #b266b2;}
+
+.foot {
+  top: 0;
+   left:0;
+   margin:0;
+   padding: 0;
+	 display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+	 background-image:url(" map.png");
+	 background-color:#6c8287;
+	 background-blend-mode: color;
+   width: 100vw;
+   height: auto;
+   align-items: center;
+   justify-content: space-around;
+    background-size: cover;
+  background-position: center;
+
+}
+.foot .social{
+	 flex-direction: row;
+}
+.foot h2 a:hover{
+	color:blue;
+}
+
+
+
+.fa {
+  padding: 3vw;
+  font-size: 1.3rem;
+  width: 3rem;
+  text-align: center;
+  margin: 0 1vw;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white ;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Media Query starts here*/
+
+@media screen and (max-width:400px){
+  :root{
+    font-size: 13px;
+  }
+}
+
+
+
+@media screen and (max-width:650px){
+  .name h2{
+   
+    margin-bottom: 1vh;
+    font-size: 7rem;
+    letter-spacing: .3rem;
+  }
+
+.name h3{
+  font-size: 1rem;
+  letter-spacing: 1rem;
+}
+.aboutme .about h4{
+  font-size: 1.5rem;
+}
+.technology .row{
+  flex-direction: column;
+}
+.technology .row .image{
+  
+  width: 70vw;
+
+}
+
+
+}
+
+@media screen and  (max-width:850px) {
+  
+
+.navbar #mymenu {
+  display: none;
+  float: left;
+  width: 40vw;
+  margin-left: 70vw;
+  text-align: center;
+  font-size: 2rem;
+}
+.navbar a{
+  display: block;
+}
+.navbar a.mobile{
+  
+  display: block;
+
+}
+  .aboutme .about{
+flex-direction: column-reverse;
+  }
+  .aboutme .about .card {
+width:40vw;
+
+box-shadow:none;
+}
+.aboutme .about .card img{
+  width: 100%;
+  height: auto;
+  border-radius: 150px;
+  box-shadow:  5px 5px 5px 4px #bb0000;
+}
+.aboutme .about h4{
+width:90vw;
+
+}
+ 
+ .skills{
+   flex-direction: column;
+ }
+ .skills .banner{
+  width: 100vw; 
+  
+}
+
+}
+
+
+
+
+
